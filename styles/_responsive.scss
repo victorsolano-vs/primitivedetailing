@@ -1,0 +1,203 @@
+@media only screen and (min-width: 500px) {
+  // wrapper
+  .wrapper {
+    padding: 0 2em;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  // hero
+  #heroTitle {
+    font-size: 30px;
+    margin-top: 7em;
+    margin-bottom: 1em;
+
+    div {
+      display: block;
+    }
+  }
+
+  #heroCta {
+    padding: 0.6em 2.3em;
+  }
+
+  // overlay menu
+  .menuNav {
+    .navLink {
+      font-size: 60px;
+    }
+
+    .current {
+      &::before {
+        bottom: 14px;
+        height: 60px;
+      }
+    }
+  }
+
+  // about us section
+
+  .sectionInfo {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 5em;
+    .homePic1 {
+      flex: 1;
+      width: inherit;
+      margin-top: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .aboutUs-sectionText {
+    max-width: none;
+    padding-right: 1em;
+  }
+
+  .sectionTitle {
+    font-size: 30px;
+  }
+
+  // packages section
+  .packageColumn1,
+  .packageColumn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .package3,
+  .package4 {
+    margin-top: 0;
+    margin-left: 3em;
+  }
+
+  .packageColumn2 {
+    margin-top: 3em;
+  }
+
+  // our work section
+
+  .ourWorkGallery {
+    flex-direction: row;
+
+    .smallPictureContainer {
+      margin-left: 2em;
+    }
+
+    .bigPicture {
+      img {
+        height: 100%;
+      }
+    }
+  }
+
+  // footer section
+
+  .footerNav {
+    flex-direction: row;
+  }
+
+  .footerMenu {
+    margin: 0;
+  }
+
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .googleMap {
+    flex: 1;
+    margin-left: 1em;
+  }
+
+  // ABOUT US PAGE
+
+  .homePic1Page {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  // hero
+  #heroTitle {
+    font-size: 35px;
+  }
+  #heroCta {
+    font-size: 14px;
+  }
+
+  // about us
+  .aboutUs-sectionText {
+    padding-right: 2em;
+    h1 {
+      font-size: 22px;
+      span {
+        display: block;
+      }
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    a {
+      font-size: 13px;
+    }
+  }
+
+  .sectionTitle {
+    font-size: 35px;
+  }
+
+  // pricing section
+  .package {
+    p {
+      font-size: 14px;
+    }
+  }
+  // our work
+  .ourWorkSection {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  // contact us
+  form {
+    label {
+      font-size: 14px;
+    }
+  }
+
+  // footer
+  .footerMenu {
+    a {
+      font-size: 14px;
+    }
+  }
+
+  .businessInfo {
+    p,
+    address {
+      font-size: 14px !important;
+    }
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  // hero
+  #heroTitle {
+    margin-top: 5em;
+    font-size: 40px;
+  }
+}
